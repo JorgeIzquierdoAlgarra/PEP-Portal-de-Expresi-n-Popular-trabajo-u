@@ -1,0 +1,487 @@
+{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       }
+body{ 
+     background-image:url(../images/textura%20web.png);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.cabezote.hijo-header{
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    text-align: center;
+        
+}
+
+    
+
+    
+.hijo-header{
+height: 100%;
+width: 100%;
+display: flex; 
+justify-content: space-between;
+    text-align: center;
+}
+
+
+.logo{
+    width: 100%;
+    height: 100%; 
+    text-align: center;
+    }
+
+.redes{
+    width:50%;
+    
+}
+
+.redes ul{
+list-style-type: none;
+    margin: 30%;
+    width: 60%;
+    background-color: transparent;
+    
+    
+}
+
+
+.redes ul li{
+display: inline-block;
+    margin: 0 5%;
+    
+}
+
+.redes ul li a{
+text-decoration: none;
+font-family: sans-serif;
+font-size: 0.9em;
+    background-color: white;
+}
+
+
+.bmenu{
+background-color: rgb(253,26,71);
+    
+}
+
+
+.bmenu ul{
+   list-style: none;
+  margin-top: ;
+    padding:0;
+}
+
+
+.bmenu ul li {
+    
+   display: inline-block;
+    
+
+    
+}
+.bmenu ul li a{
+    color:white;
+    display: block;
+    padding: 15px  73px;
+    text-decoration: none;
+        font-family: "mifuente"
+            
+        
+    
+}
+
+
+@font-face{
+    
+    font-family: "mifuente";
+    src: url(../fonts/Futura.otf);
+        
+    
+}
+
+.bmenu ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.51)
+    
+    
+    
+}
+.mi-perfil img{
+    margin-left: 3%;
+    margin-bottom: -10%
+    
+}
+    
+
+
+.pie{
+    background-color: rgb(253,26,71);
+    
+}
+
+.papa-pie{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.texto-pie{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.6em;
+    
+}
+.texto-pie p{
+    margin: 0;
+}
+
+
+.redes-pie{
+    width: 40%;
+    
+}
+
+.redes-pie ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+.redes-pie a{
+    color: white;
+    font-size: 2em;
+    
+}
+.buscar{
+    display: flex;
+     justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 255, 0.13);
+    padding: 10px;
+    height: 80px;
+    border-radius: 40px;
+    
+   
+}
+
+.buscar-texto{
+    border: none;
+    background: none;
+    outline: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    line-height: 68px;
+    transition: .3s;
+    width: 0;
+  
+     }
+.icono-lupa{
+    width: 40px;
+        height: 40px;
+    text-decoration: none;
+    color: transparent;
+    font-size: 30px;
+    
+  
+        
+}
+
+@media screen and (min-width:480px){
+    .buscar:hover>.buscar-texto{
+        width:190px 
+    }
+}
+
+
+.contenedor{
+    width: 100%;
+    padding: ;
+    
+}
+.formulario{
+    
+    background: rgba(10, 23, 39, 0.11);
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 0px solid #aaa;
+    
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color:#999;
+    
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+    
+    
+}
+
+p{
+    text-align: center;
+    
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-weight: 600;
+    
+}
+.link:hover{
+    color:white;
+    
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+.descripcion {
+    margin-top: 200px;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+   
+    }
+
+.descripcion figure{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px
+    rgba(0,0,0,0.50);
+    cursor: pointer;
+    
+}
+.descripcion figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    
+    
+}
+
+.descripcion figure .texto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 32, 36, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+ 
+.descripcion figure:hover > .texto{
+    opacity: 1;
+    visibility: visible;
+}
+.descripcion figure:hover > .texto h1{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+}
+.descripcion figure:hover > img {
+    
+    transform: scale(1.3);
+    
+}
+.descripcion figure .texto h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 120px;
+     transition: all 500ms ease-out;
+    margin-top: 30px;
+    
+    
+    
+}
+.descripcion figure .texto p{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    
+}
+
+.fondoo1{
+    background-image: url(../images/foto%2002.jpg);
+    height: 200px;
+        background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+
+
+.fondoo{
+    background-image: url(../images/FOTO%20CALCA%2077.jpg);
+    height: 500px;
+        background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+
+#btn-menu{
+    display: none;
+    
+}
+
+.cabezote label{
+    display: none;
+    width: 128px;
+    
+    
+}
+
+.cabezote label:hover{
+    cursor: pointer;
+    background: rgb(0,0,0,0.5)
+}
+
+
+.bmenu ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+    justify-content: space-around;
+    
+}
+
+
+.bmenu a{
+    
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 15px 20px;
+}
+
+.bmenu li:hover{
+    
+    background: rgb(0,0,0,0.3)
+}
+
+.bmenu a:hover{
+    
+    color: aliceblue;
+}
+
+
+@media (max-width:500px){
+   .bmenu{    background: rgb(253,26,71);} 
+    .hijo-cajas{
+        width: 95%;
+    }
+    
+    .bmenu a {
+        color: aliceblue;
+    }
+    
+    .cabezote label{
+        display: block;
+    }
+    .hamburguesa{
+         width: 30%;
+        background-color: rgb(253,26,71);
+        border-radius: 49px;
+    }
+    
+    .bmenu{
+        position: absolute;
+        margin-left: -100%;
+        transition: all 0.5s;
+        margin-top: -33.1%;    
+    }
+    
+    .bmenu ul{
+        flex-direction: column;
+    }
+    .bmenu li{
+        border-bottom: 1px solid white;
+    }
+    .bmenu a{
+        background-color: rgba(234, 5, 102, 0.36)
+    }
+    
+    #btn-menu:checked ~ .bmenu{
+        margin: 0;
+        margin-top: -33.1%;
+    }
+
+  }
+
+
